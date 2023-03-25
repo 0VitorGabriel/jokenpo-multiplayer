@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jo-ken-po</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section id="player-one">
+            <h1 id="title_player_one">
+                Player 1
+            </h1>
+
+            <img src="imgs/pedra-papel-tesoura.png" alt="pedra,papel,tesouta" id="img_top">
+
+            <div class="form_player_one">
+                <p>
+                    <input type="radio" name="first_user" id="stone_first_user">
+                    <label for="stone_first_user">pedra</label>
+
+                    <input type="radio" name="first_user" id="paper_first_user">
+                    <label for="paper_first_user">papel</label>
+
+                    <input type="radio" name="first_user" id="scissors_first_user">
+                    <label for="scissors_first_user">tesoura</label>
+                </p>
+            </div>
+        </section>
+
+        <section id="player-two">
+
+            <h1 id="title_player_two">
+                Player 2
+            </h1>
+
+            <img src="imgs/pedra-papel-tesoura.png" alt="pedra,papel,tesouta" id="img_top">
+
+            <div class="form_player_two">
+                <p>
+                    <input type="radio" name="second_user" id="stone_second_user">
+                    <label for="stone_second_user">pedra</label>
+
+                    <input type="radio" name="second_user" id="paper_second_user">
+                    <label for="paper_second_user">papel</label>
+
+                    <input type="radio" name="second_user" id="scissors_second_user">
+                    <label for="scissors_second_user">tesoura</label>
+                </p>
+            </div>
+        </section>
+
+        <section id="finaly">
+            <div class="result">
+
+                <h1 id="title_situation">
+                    Situação
+                </h1> 
+                
+                <br>
+
+                <h1 id="result"></h1>
+
+                <input type="submit" value="enviar" id="submit">
+                <input type="submit" value="resetar" id="restart">
+            </div>
+            <div class="situation">
+                <div class="points_first_column">
+                    <p id="total_round">
+                        Total = 
+                    </p>
+
+                    <hr>
+
+                    <p id="defeats_first_user">
+                        Derrotas do player 1 = 
+                    </p>
+
+                    <p id="victory_first_user">
+                        Vitórias do player 1 = 
+                    </p>
+                </div> 
+                <hr>
+                <div class="points_second_column">
+                    <p id="defeats_second_user">
+                        Derrotas do player 2 = 
+                    </p>
+
+                    <p id="victory_second_user">
+                        Vitórias do player 2 = 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts/script.js"></script>  
+</body>
+</html>

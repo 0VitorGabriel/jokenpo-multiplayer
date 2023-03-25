@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: relative;
+
+    background-image: url(../imgs/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#player-one, #player-two, #finaly {
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    margin: auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#player-one {
+    float: left;
+    padding-bottom: 33px;
+}
+
+#player-two {
+    float: right;
+    padding-bottom: 33px;
+}
+
+#finaly {
+    padding: 10px 3px;
+}
+
+.form_player_one, .form_player_two {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+input {
+    margin: 0px 5%;
+}
+
+.points {
+    text-align: center;
+}
+
+#submit {
+    display: block;
+    float: left;
+}
+
+#restart {
+    display: block;
+    float: right;
+}
+
+.situation {
+    text-align: center;
+}
+
+#title_player_two, #title_player_one {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        background-color: #ffffff;
+        width: 320px;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .form_player_one {
+        margin-bottom: -40px;
+    }
+
+    .form_player_two {
+        margin-bottom: -5px;
+    }
+}
