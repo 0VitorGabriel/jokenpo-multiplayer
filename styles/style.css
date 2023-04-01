@@ -5,12 +5,8 @@ body {
 
     position: relative;
 
-    background-color: #000000;
-    background-image: url(../imgs/fundo.png);
-    background-repeat: no-repeat;
+    background: #000000 url(../imgs/fundo.png) no-repeat center center;
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
 }
 
 h1 {
