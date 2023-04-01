@@ -121,7 +121,7 @@ restart.addEventListener('click', function restart() {
     area_first_user_defeat.innerHTML = 'Derrotas do player 1 ='
 
     first_user_victory = 0
-    area_first_user_victory.innerHTML = 'Vitórias do player 1 = '
+    area_first_user_victory.innerHTML = 'Vitórias do player 1 ='
 
     second_user_defeat = 0
     area_second_user_defeat.innerHTML = 'Derrotas do player 2 ='
