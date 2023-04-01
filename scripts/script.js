@@ -53,6 +53,7 @@ function paper_possibilities() {
 
        situation.innerHTML = 'player 1 ganhou!'
        player_one_win()
+
     }
 }
 
@@ -76,19 +77,19 @@ function scissors_possibilities() {
 }
 
 let round = 0
-let area_round = document.querySelector('p#total_round')
+const area_round = document.querySelector('p#total_round')
 
 let first_user_defeat = 0
-let area_first_user_defeat = document.querySelector('p#defeats_first_user')
+const area_first_user_defeat = document.querySelector('p#defeats_first_user')
 
 let first_user_victory = 0
-let area_first_user_victory = document.querySelector('p#victory_first_user')
+const area_first_user_victory = document.querySelector('p#victory_first_user')
 
 let second_user_defeat = 0
-let area_second_user_defeat = document.querySelector('p#defeats_second_user')
+const area_second_user_defeat = document.querySelector('p#defeats_second_user')
 
 let second_user_victory = 0
-let area_second_user_victory = document.querySelector('p#victory_second_user')
+const area_second_user_victory = document.querySelector('p#victory_second_user')
 
 function tie_case() {
     area_round.innerHTML = `Total = ${round += 1}`
