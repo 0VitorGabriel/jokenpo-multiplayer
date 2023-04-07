@@ -114,18 +114,5 @@ function player_one_win() {
 const restart = document.querySelector('input#restart')
 
 restart.addEventListener('click', function restart() {
-    round = 0
-    area_round.innerHTML = 'Total ='
-
-    first_user_defeat = 0
-    area_first_user_defeat.innerHTML = 'Derrotas do player 1 ='
-
-    first_user_victory = 0
-    area_first_user_victory.innerHTML = 'Vitórias do player 1 ='
-
-    second_user_defeat = 0
-    area_second_user_defeat.innerHTML = 'Derrotas do player 2 ='
-
-    second_user_victory = 0
-    area_second_user_victory.innerHTML = 'Vitórias do player 2 ='
+    location.reload()
 })
